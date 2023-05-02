@@ -4,33 +4,21 @@
     <meta charset="UTF-8">
     <title>Hero Section Example</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css">
-        <style>
-      .dark-overlay::before {
-        content: "";
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0,0,0,0.5);
-      }
-    </style>
   </head>
   <body>
-    <section class="bg-cover bg-center h-screen flex items-center justify-center" 
-             style="background-image: url('https://source.unsplash.com/5ZmAyIG_OrI/1600x900');">
-      <div class="absolute top-0 left-0 pt-8 pr-8">
-        <img src="images/logoupload.png" alt="Logo" class="h-36">
-      </div>
-      <div class="text-center text-white">
-        <h1 class="text-5xl font-bold mb-6">Where Wine Tasting Results in Unforgettable Memories</h1>
-        <p class="text-2xl mb-8">Discover the Flavors of the Douro Valley with Our Wine Tastings and Tours</p>
-        <form class="inline-flex">
-    
-          <button type="submit" class="bg-blue-600 text-white font-bold rounded-r py-2 px-4 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50">Book Now</button>
-        </form>
-      </div>
-    </section>
+    <section class="relative bg-cover bg-center h-screen flex items-center justify-center"
+  style="background-image: url('https://source.unsplash.com/5ZmAyIG_OrI/1600x900');">
+  <div class="absolute top-0 left-0 pt-8 pr-8">
+    <img src="images/logoupload.png" alt="Logo" class="h-36">
+  </div>
+  <div class="absolute top-0 left-0 h-full w-full bg-black opacity-50"></div>
+  <div class="text-center text-white z-10">
+    <h1 class="text-5xl font-bold mb-6">Sip&Savor Douro: Where Wine Tasting Results in Unforgettable Memories</h1>
+    <p class="text-2xl mb-8">Discover the Flavors of the Douro Valley with Our Wine Tastings and Tours</p>
+    <form class="inline-flex">
+      <button type="submit" class="bg-blue-600 text-white font-bold rounded-r py-2 px-4 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50">Book Now</button>
+    </form>
+  </div>
+</section>
   </body>
 </html>
