@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <title>Hero Section Example</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css">
+        <style>
+      .dark-overlay::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+      }
+    </style>
   </head>
   <body>
     <section class="bg-cover bg-center h-screen flex items-center justify-center" 
