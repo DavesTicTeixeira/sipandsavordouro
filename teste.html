@@ -6,17 +6,44 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css">
   </head>
   <body>
-    <section class="bg-red-700 h-screen flex items-center">
-      <div class="container mx-auto px-4 md:flex md:items-center">
-        <div class="md:w-1/2">
-          <h1 class="text-5xl font-bold text-white mb-4">Discover the Flavors of Red Wine</h1>
-          <p class="text-2xl text-white mb-8">Indulge in our premium selection of red wines, carefully crafted to perfection.</p>
-          <form class="inline-flex">
-            <button type="submit" class="bg-white text-red-700 font-bold rounded py-2 px-4 hover:bg-red-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-red-700 focus:ring-opacity-50">Book a Tasting</button>
-          </form>
+    <nav class="bg-white shadow-lg">
+      <div class="container mx-auto px-6 py-4">
+        <div class="md:flex md:items-center md:justify-between">
+          <div class="flex justify-between items-center">
+            <div class="text-2xl font-bold text-gray-800 md:text-3xl">
+              <a href="#">
+                <img src="images/logo.png" alt="Logo" class="h-10 w-10">
+              </a>
+            </div>
+          </div>
+          <div class="md:flex items-center mt-4 md:mt-0">
+            <div class="flex flex-col md:flex-row md:mx-6">
+              <a href="#" class="my-1 text-gray-700 font-medium md:mx-4 md:my-0 hover:text-gray-900">Home</a>
+              <a href="#" class="my-1 text-gray-700 font-medium md:mx-4 md:my-0 hover:text-gray-900">About</a>
+              <a href="#" class="my-1 text-gray-700 font-medium md:mx-4 md:my-0 hover:text-gray-900">Services</a>
+              <a href="#" class="my-1 text-gray-700 font-medium md:mx-4 md:my-0 hover:text-gray-900">Blog</a>
+              <a href="#" class="my-1 text-gray-700 font-medium md:mx-4 md:my-0 hover:text-gray-900">Contact</a>
+            </div>
+            <button class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-800 rounded">
+              Call Now
+            </button>
+          </div>
         </div>
-        <div class="md:w-1/2">
-          <img src="https://source.unsplash.com/9hjQ2uVzM_w/600x800" alt="Red Wine" class="w-full h-auto">
+      </div>
+    </nav>
+    <section class="bg-red-600 h-screen flex items-center">
+      <div class="container mx-auto px-6 flex items-center justify-between">
+        <div class="w-full md:w-1/2">
+          <div class="text-white text-4xl font-bold mb-6">
+            <h1>Discover the Flavors of Red Wine</h1>
+          </div>
+          <p class="text-white text-xl mb-8">Join our Wine Tastings and Tours Today</p>
+          <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+            Book Now
+          </button>
+        </div>
+        <div class="w-full md:w-1/2">
+          <img src="https://source.unsplash.com/Y3A-jx5Nmgs/800x600" alt="Red Wine" class="h-auto w-full rounded-md shadow-md">
         </div>
       </div>
     </section>
