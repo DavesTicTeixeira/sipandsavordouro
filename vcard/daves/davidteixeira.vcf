@@ -1,0 +1,20 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Teixeira;David;;;
+FN:David Teixeira
+ORG:Sipandsavor Douro
+ADR;TYPE=WORK:Douro Internacional
+TITLE:Local Chap
+TEL;TYPE=CELL:+351960022417
+TEL;TYPE=WORK:
+TEL;TYPE=HOME:
+TEL;TYPE=MSG:
+EMAIL;TYPE=WORK:info@sipandsavordouro.com
+URL;TYPE=Digital Business Card:
+URL:https://sipandsavordouro.com
+URL;TYPE=Website:https://sipandsavordouro.com
+URL;TYPE=WhatsApp:https://wa.me/351960022417
+KEY;TYPE=PGP;ENCODING=b:
+NOTE:We aim to create, design and manage, social, economic and environmental, sustainable enotourism experiences in Douro International.
+UID:EnBizCard-100490191
+END:VCARD
